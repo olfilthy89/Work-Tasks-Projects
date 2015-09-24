@@ -1,0 +1,58 @@
+
+
+body {
+	background: black;
+}
+.pop-up {
+    margin: 0px auto;
+    padding: 0px;
+    width: 540px;
+    /* 480 + 2*30 */
+    padding: 20px 30px;
+    background: white;
+}
+h3 {
+    color: #16D5F5;
+}
+h4 {
+    font-size: 12px;
+}
+img {
+	float: left;
+}
+
+.author {
+    text-indent: 2em;
+    margin-left: 30px;
+}
+.comment-text {
+    margin-left: 10px;
+}
+.buttons {
+    margin: 4px 0px 10px 0px;
+}
+
+#floatedbtn {
+	float: right;
+	margin-left: 2px;
+}
+
+#floatedbtn2 {
+	background: black;
+	float: right;
+}
+
+#btn-rep {
+	float: right;
+	margin: 0px auto;
+}
+
+.close {
+	border: 1px solid black;
+	border-radius: 10px;
+	color: red;
+	position: absolute;
+	bottom: 1335px;
+	left: 508px;
+}
+

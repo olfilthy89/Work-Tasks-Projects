@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drooble Task</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="script.js"></script>
+        <script src="jquery-1.11.3.min.js"></script>
+    </head>
+    <body>
+        <div class="pop-up">
+            <div class="close">
+                <img src="close.png" alt="closepic">
+            </div>
+            <div id="video-container">
+                <input type="text" class="form-control" onpaste="addYouTube();" id="video-link" placeholder="Paste video-link from YouTube here"/>
+            </div>
+            <div class="buttons">
+                <input type="button" class="btn btn-info" value="Like" />
+                <input type="button" class="btn btn-info" value="Share" />
+                <input type="button"  class="btn btn-danger" id="floatedbtn" value="Delete" />
+                <input type="button" class="btn btn-primary" id="floatedbtn2" value="Edit"   />
+                <br>
+            </div>
+            <div class="video-comment">
+                <textarea class="form-control" name="comment" rows="2" placeholder="Comment&hellip;"></textarea>
+            </div>
+            
+            <!-- .video-container -->
+            <div class="comments-container">
+                <div class="comment">
+                    <div class="author">
+                        <img src="img.png" alt="img">
+                        <h3>Stoyan Daskaloff</h3>
+                        <h4>March 7, 2013 AT 7:30 PM</h4>
+                    </div>
+                    <blockquote>
+                        <div class="comment-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae at consectetur iste dignissimos maiores placeat deleniti eum dolore, velit ab similique eligendi commodi perspiciatis excepturi labore facere. Ad, excepturi, distinctio?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, reiciendis molestias inventore blanditiis ratione amet, dolore id doloribus minus iure esse, accusantium qui ex, nesciunt? Officiis, animi saepe libero quae!</p>
+                        </div>
+                        <div class="buttons">
+                            <input type="button" class="btn btn-info" value="Like" />
+                            <input type="button" class="btn btn-info" value="Share" />
+                            <input type="button" class="btn btn-info"  value="Comment" />
+                            <input id="btn-rep" type="button" class="btn btn-success" value="Report" />
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+            <!-- .comments-container -->
+            <blockquote class="container-bottom">
+                <div class="buttons">
+                    <input type="button" class="btn btn-default" value="Comment" />
+                    <input type="button" class="btn btn-default" value="Photo" />
+                    <input type="button" class="btn btn-default" value="Feedback" />
+                </div>
+                <div class="reply">
+                    <textarea class="form-control" name="reply" rows="2" placeholder="Reply&hellip;"></textarea>
+                </div>
+            </blockquote>
+        </div>
+    </div>
+    <!-- .pop-up -->
+</body>
+</html>
